@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import { Text, View } from 'react-native'
 import ClassComponent from './src/functional-class-component/ClassComponent';
 import FunctionalComponent from './src/functional-class-component/FunctionalComponent';
+import ImageComponent from './src/other-component/ImageComponent';
+import TextInputComponent from './src/other-component/TextInputComponent';
 
 export default class App extends Component {
   render() {
@@ -9,8 +11,9 @@ export default class App extends Component {
       <View>
         <FunctionalComponent />
         <ClassComponent />
+        <ImageComponent />
+        <TextInputComponent />
       </View>
-      // <Text>AWIEJIAEJ</Text>
     )
   }
 }
