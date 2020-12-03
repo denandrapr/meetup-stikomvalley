@@ -4,6 +4,7 @@ import ClassComponent from './src/functional-class-component/ClassComponent';
 import FunctionalComponent from './src/functional-class-component/FunctionalComponent';
 import ImageComponent from './src/other-component/ImageComponent';
 import TextInputComponent from './src/other-component/TextInputComponent';
+import StylingOne from './src/styling-component/StylingOne';
 
 export default class App extends Component {
   render() {
@@ -13,6 +14,7 @@ export default class App extends Component {
         <ClassComponent />
         <ImageComponent />
         <TextInputComponent />
+        <StylingOne />
       </View>
     )
   }
